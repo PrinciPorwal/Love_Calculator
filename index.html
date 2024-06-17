@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="icon" type="image/x-icon" href=".\heart.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container1" id="contain1">
+        <div class="nav">
+        <div class="emoji">&#10084
+        </div>
+        <h1>The Love Calculator</h1>
+        <div class="emoji">&#10084
+        </div>
+    </div>
+    <div class="main">
+        <p>Welcome to the great invention of doctor Love!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tenetur, hic, voluptatem sint eligendi id in nisi cum deserunt aperiam iusto dolorum possimus et. Itaque quaerat dolore molestias dicta totam.  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repellat hic aperiam enim suscipit alias quidem veniam id, architecto, cumque nam vel vero quis ex blanditiis aut libero, veritatis fuga.</p>
+        <div class="link">
+            <a href="#">About the love Calculator |</a>
+            <a href="#">Love Calculator</a>
+        </div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, officiis quaerat non facilis hic deserunt qui eius! Quia repellendus accusantium provident animi eveniet obcaecati minus.</p>
+        </div>
+        <div class="section">
+            <p>Please enter the two name to be analysed:</p>
+            <div class="form">
+               
+                <div><label for="input1"><h3>Name of person 1</h3></label> 
+                    <input type="text" id="input1" placeholder="name of first person" required>
+                    <div class="radio">
+        <input type="radio" id="female2" name="gender2" value="Female">
+        <span class="c-indicator">&nbsp;</span><label for="female2">female</label><br>
+<input type="radio" id="male2" name="gender2" value="Male">
+<span class="c-indicator">&nbsp;</span><!--non-breaking space-->
+<label for="male2">Male</label><br>
+<input type="radio" id="other2" name="gender2" value="Other">
+<span class="c-indicator">&nbsp;</span><label for="other2">other</label></div>
+        </div>
+        <div class="emoji">&#10084
+        </div>
+    <div><label for="input2"><h3>Name of person 2</h3></label> 
+    <input type="text" id="input2" placeholder="name of second person" required>
+    <div class="radio">
+    <input type="radio" id="female1" name="gender1" value="Female" default><label for="female1">female</label><br>
+<input type="radio" id="male1" name="gender1" value="Male"><label for="male1">Male</label><br>
+<input type="radio" id="other1" name="gender1" value="Other"><label for="other1">other</label></div>
+  </div>
+    </div>
+    <div class="button">
+<button onclick="printInput()">calculate</button></div>
+
+    </div>
+</div>
+<div class="container2" id="contain">
+    <div class="heading">
+    <h1>Love Calculator Result</h1>
+<h2>
+    These are the result of the calculations by Dr.Love
+</h2></div>
+<div class="main">
+    <div class="form">
+    <h2 id="output1"></h2>
+    <div class="emoji">&#10084
+    </div>
+    <h2 id="output2"></h2>
+</div>
+<div class="percentage">
+    <h1 class="calculation" id="calculate">
+       
+    </h1>
+    <h1 class="percent">%</h1></div>
+    <p class="result" id="res"></p>
+</div>
+<div class="foot">
+    <div class="form">
+               
+        <div> <label for="input3" ><h3>Name of person 1</h3></label>
+<input type="text" id="input3" placeholder="name of first person" required>
+<div class="radio">
+<input type="radio" id="female3" name="gender3" value="Female"><label for="female3">female</label><br>
+<input type="radio" id="male3" name="gender3" value="Male"><label for="male3">Male</label><br>
+<input type="radio" id="other3" name="gender3" value="Other"><label for="other3">other</label></div>
+
+</div>
+<div class="emoji">&#10084
+</div>
+<div> <label for="input4" ><h3>Name of person 2</h3></label>
+<input type="text" id="input4" placeholder="name of second person" required>
+<div class="radio">
+    
+<input type="radio" id="female4" name="gender4" value="Female"><label for="female4">female</label><br>
+<input type="radio" id="male4" name="gender4" value="Male"><label for="male4">Male</label><br>
+<input type="radio" id="other4" name="gender4" value="Other"><label for="other4">other</label>
+</div>
+</div>
+</div>
+<div class="button">
+<button onclick="printInputAgain()">calculate</button></div>
+
+</div>
+<div class="disclaimer"><span>disclaimer:</span> This game is just only fun purpose. It doesn't take any gurantee to your love life</div>
+</div>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
